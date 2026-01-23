@@ -1,16 +1,7 @@
 {
   "mcpServers": {
-    "weather": {
-      "command": "uv",
-      "args": [
-        "--directory",
-        "./mock-weather-mcp-server",
-        "run",
-        "main.py"
-      ],
-      "env": {
-        "MCP_LOG_LEVEL": "ERROR"
-      }
+    "web-search": {
+      "url": "http://192.168.178.192:11287/sse"
     }
   }
 }
