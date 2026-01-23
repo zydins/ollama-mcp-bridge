@@ -144,7 +144,7 @@ class MCPManager:
                 tool_def = {
                     "type": "function",
                     "function": {
-                        "name": f"{name}.{tool.name}",
+                        "name": f"{name}_{tool.name}",
                         "description": tool.description,
                         "parameters": tool.inputSchema,
                     },
